@@ -4,3 +4,4 @@
 - npm install three @react-three/fiber
 - setup linters
 - modify components structure
+- create a list of cubes on main page
