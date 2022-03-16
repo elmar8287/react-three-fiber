@@ -7,6 +7,6 @@ const Navigation = () => (
       <li>My favorites</li>
     </ul>
   </div>
-)
+);
 
 export default Navigation;
