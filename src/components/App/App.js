@@ -1,14 +1,18 @@
 import React from 'react';
+import { Canvas } from "@react-three/fiber";
 import Navigation from '../Navigation/Navigation';
+import Box from '../Cubes/Cubes';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <Navigation />
-      <h1>Hello</h1>
-    </div>
+     <div>
+       <Navigation />
+       <Canvas>
+        <ambientLight />
+        <Box position={[0, 0, 0]} />
+     </Canvas>
+     </div>
+     
   );
 }
-
-export default App;
